@@ -1,0 +1,6 @@
+<div class="weather-box">
+  <img [src]="'../../../assets/images/' + (weather | lowercase) + '.png'">
+  <p class="location">{{location}}</p>
+  <p class="temperature">{{temperature | number:'1.1-1' }}</p>
+  <p class="description">{{description}}</p>
+</div>

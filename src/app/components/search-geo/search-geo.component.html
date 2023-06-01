@@ -1,0 +1,5 @@
+<div class="search-box">
+  <i class="fa-solid fa-location-dot"></i>
+  <input type="text"  #queryRef (keyup.enter)="onSearch(queryRef.value)" placeholder="Enter your location">
+  <button class="fa-solid fa-magnifying-glass" (click)="onSearch(queryRef.value)"></button>
+</div>
