@@ -1,5 +1,12 @@
 .indicator-box{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.indicator-box>* {
+  flex: 1 2 120px;
+  display: flex;
   justify-content: space-around;
+
 }

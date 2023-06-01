@@ -10,6 +10,8 @@ import { IndicatorsComponent } from './components/indicators/indicators.componen
 import { ErrorLocationComponent } from './components/error-location/error-location.component';
 import { HumidityComponent } from './components/humidity/humidity.component';
 import { WindComponent } from './components/wind/wind.component';
+import { PressureComponent } from './components/pressure/pressure.component';
+import { VisibilityComponent } from './components/visibility/visibility.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { WindComponent } from './components/wind/wind.component';
     ErrorLocationComponent,
     HumidityComponent,
     WindComponent,
+    PressureComponent,
+    VisibilityComponent,
 
   ],
   imports: [
