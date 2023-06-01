@@ -1,4 +1,4 @@
 <div class="indicator-box">
-  <app-indicator></app-indicator>
-  <app-indicator></app-indicator>
+  <app-humidity *ngIf="indicators.main.humidity" [indicator]="indicators"></app-humidity>
+  <app-wind *ngIf="indicators.wind.speed" [indicator]="indicators"></app-wind>
 </div>

@@ -4,7 +4,7 @@
   <ng-container *ngIf="!(isError$ | async)">
     <ng-container *ngIf="(result$ | async) as res">
       <app-weather [temperature]="res.main.temp" [weather]="res.weather[0].main" [description]="res.weather[0].description" [location]="res.name"></app-weather>
-      <app-indicators ></app-indicators>
+      <app-indicators [indicators]="res"></app-indicators>
     </ng-container>
   </ng-container>
 </div>

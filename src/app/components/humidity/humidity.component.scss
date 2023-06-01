@@ -1,0 +1,25 @@
+.humidity{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+}
+
+.humidity i{
+  color: black;
+  font-size: 26px;
+  margin-right: 20px;
+  margin-top: 6px;
+}
+
+.humidity span{
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.humidity p{
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}

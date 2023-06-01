@@ -7,8 +7,9 @@ import { AppComponent } from './app.component';
 import { SearchGeoComponent } from './components/search-geo/search-geo.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { IndicatorsComponent } from './components/indicators/indicators.component';
-import { IndicatorComponent} from "./components/indicator/indicator.component";
 import { ErrorLocationComponent } from './components/error-location/error-location.component';
+import { HumidityComponent } from './components/humidity/humidity.component';
+import { WindComponent } from './components/wind/wind.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,9 @@ import { ErrorLocationComponent } from './components/error-location/error-locati
     SearchGeoComponent,
     WeatherComponent,
     IndicatorsComponent,
-    IndicatorComponent,
     ErrorLocationComponent,
+    HumidityComponent,
+    WindComponent,
 
   ],
   imports: [

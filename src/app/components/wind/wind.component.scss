@@ -1,24 +1,24 @@
-.indicator{
+.wind{
   display: flex;
   align-items: center;
   width: 50%;
   height: 100px;
 }
 
-.indicator i{
+.wind i{
   color: black;
   font-size: 26px;
   margin-right: 20px;
   margin-top: 6px;
 }
 
-.indicator span{
+.wind span{
   color: black;
   font-size: 22px;
   font-weight: 500;
 }
 
-.indicator p{
+.wind p{
   color: black;
   font-size: 14px;
   font-weight: 500;

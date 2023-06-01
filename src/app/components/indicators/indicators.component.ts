@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-indicators',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./indicators.component.scss']
 })
 export class IndicatorsComponent {
+
+  @Input() indicators: any;
+
 
 }
