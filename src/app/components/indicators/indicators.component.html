@@ -1,6 +1,6 @@
 <div class="indicator-box">
-  <app-humidity [indicator]="indicators"></app-humidity>
-  <app-wind [indicator]="indicators"></app-wind>
-  <app-visibility [indicator]="indicators"></app-visibility>
-  <app-pressure [indicator]="indicators"></app-pressure>
+  <app-indicator [icon]="'water'" [value]="indicators.main.humidity" [description]="'Humidity'"></app-indicator>
+  <app-indicator [icon]="'wind'" [value]="indicators.wind.speed" [description]="'Wind speed'"></app-indicator>
+  <app-indicator [icon]="'eye'" [value]="indicators.visibility" [description]="'Visibility'"></app-indicator>
+  <app-indicator [icon]="'bars'" [value]="indicators.main.pressure" [description]="'Pressure'"></app-indicator>
 </div>

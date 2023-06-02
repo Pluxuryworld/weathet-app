@@ -8,10 +8,7 @@ import { SearchGeoComponent } from './components/search-geo/search-geo.component
 import { WeatherComponent } from './components/weather/weather.component';
 import { IndicatorsComponent } from './components/indicators/indicators.component';
 import { ErrorLocationComponent } from './components/error-location/error-location.component';
-import { HumidityComponent } from './components/humidity/humidity.component';
-import { WindComponent } from './components/wind/wind.component';
-import { PressureComponent } from './components/pressure/pressure.component';
-import { VisibilityComponent } from './components/visibility/visibility.component';
+import { IndicatorComponent } from './components/indicator/indicator.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +17,7 @@ import { VisibilityComponent } from './components/visibility/visibility.componen
     WeatherComponent,
     IndicatorsComponent,
     ErrorLocationComponent,
-    HumidityComponent,
-    WindComponent,
-    PressureComponent,
-    VisibilityComponent,
+    IndicatorComponent,
 
   ],
   imports: [

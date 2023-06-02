@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PressureComponent } from './pressure.component';
+import { IndicatorComponent } from './indicator.component';
 
-describe('PressureComponent', () => {
-  let component: PressureComponent;
-  let fixture: ComponentFixture<PressureComponent>;
+describe('IndicatorComponent', () => {
+  let component: IndicatorComponent;
+  let fixture: ComponentFixture<IndicatorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PressureComponent ]
+      declarations: [ IndicatorComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PressureComponent);
+    fixture = TestBed.createComponent(IndicatorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
